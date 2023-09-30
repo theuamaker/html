@@ -1,18 +1,28 @@
+head{
+    font-size: 20px
+}
+
 body {
     font-family: Arial, sans-serif; /* Yazı tipi ailesi */
-    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
-    background-color: #b4d2e7; /* Web sayfasının arka plan rengi */
+    font-size: 20px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #000000b2; /* Web sayfasının arka plan rengi */
+    background-image: url("https://wallpapercave.com/wp/wp9314293.jpg");
     color: #ffffff; /* Metin rengi */
+    border-style: inset;
+    border-width: 2px;
+    padding:5px;
+    border-color:#ffffff #ffffff #ffffff #ffffff;
 }
 
 h1 {
-    color: #00a800; /* Başlık rengi */
+    color: #00a884; /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    p.inset {border-style: inset;}
 }
 
 h2 {
-    color: #00a800; /* Başlık rengi */
+    color: #7effdd; /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
