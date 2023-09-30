@@ -1,5 +1,5 @@
-head{
-    font-size: 20px
+head {
+    font-size: 40px
 }
 
 body {
@@ -25,4 +25,21 @@ h2 {
     color: #7effdd; /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+@keyframes color-change {
+    0% {
+      color: #7effdd;
+    }
+  
+    50% {
+      color: rgb(77, 143, 163);
+    }
+  
+    100% {
+      color: #7effdd;
+    }
+}
+
+h1:hover { animation: color-change 3s infinite;
 }
